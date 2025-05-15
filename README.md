@@ -88,4 +88,59 @@ iris-eda/
 - T-tests for pairwise comparison (Setosa vs Versicolor, etc.).
 - Hypothesis testing and interpretation of p-values.
 
+---
+
+## Tools and Libraries Used
+
+- Python 3
+- Pandas – Data manipulation
+- NumPy – Numerical operations
+- Seaborn & Matplotlib – Data visualization
+- SciPy & Statsmodels – Statistical analysis
+- Scikit-learn – Dataset access and preprocessing
+
+
+---
+
+## Key Insights
+
+- Petal length and petal width are the most discriminative features for classifying species.
+
+- Iris-setosa is distinctly separable from the other two species based on petal measurements.
+
+- There are statistically significant differences (p < 0.05) in feature distributions across species groups.
+
+
+---
+
+## How to Run the Project
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/iris-eda.git
+cd iris-eda
+```
+
+2. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+3. Open the notebook:
+
+```
+jupyter notebook iris_eda_analysis.ipynb
+```
+
+---
+
+---
+
+## Author
+
+Rodger Jabulente 
+Data Analyst | Crop Specialist
+LinkedIn | GitHub | Email
 
