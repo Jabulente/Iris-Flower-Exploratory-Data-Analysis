@@ -31,3 +31,61 @@ Each flower sample has the following features (in cm):
 - Sepal Width
 - Petal Length
 - Petal Width
+
+---
+
+## Objectives
+
+- Understand the structure and contents of the Iris dataset.
+- Perform visual exploration to identify trends and patterns.
+- Generate descriptive statistics to summarize the data.
+- Conduct inferential statistical analysis to evaluate relationships and differences between species.
+
+---
+
+## Project Structure
+```
+iris-eda/
+│
+├── iris_eda_analysis.ipynb         # Main Jupyter Notebook containing the analysis
+├── README.md                       # Project README file
+├── dataset/
+│   └── iris.csv                    # Iris dataset (optional, if not using seaborn or sklearn's built-in)
+├── images/
+│   └── *.png                       # Visualizations and charts
+└── requirements.txt                # Python dependencies
+```
+---
+
+## Key Analysis Steps
+
+#### 1. Data Loading & Preliminary Exploration
+
+- Previewed the first few rows.
+- Checked dataset shape and column types.
+- Verified presence of null/missing values.
+- Checked class distribution (number of samples per species).
+
+
+#### 2. Descriptive Statistics
+
+- Measures of central tendency (mean, median, mode).
+- Measures of dispersion (variance, standard deviation, IQR).
+- Distribution plots (histograms, boxplots).
+
+
+#### 3. Visual Exploration
+
+- Pairplots to examine relationships between variables.
+- Heatmap to visualize correlation between features.
+- Species-wise comparison using violin plots and swarm plots.
+-Scatter plots and regplots to visualize trends.
+
+
+#### 4. Inferential Statistics
+
+- ANOVA (Analysis of Variance) to test for significant differences in means across species.
+- T-tests for pairwise comparison (Setosa vs Versicolor, etc.).
+- Hypothesis testing and interpretation of p-values.
+
+
