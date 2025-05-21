@@ -1,6 +1,6 @@
 # Iris Flower Dataset: Exploratory Data Analysis (EDA)
 
-![Iris Flowers](https://upload.wikimedia.org/wikipedia/commons/5/56/Kosaciec_szczecinkowaty_Iris_setosa.jpg)
+![Iris Flowers](./Resources/Iris_flowers.png)
 
 A comprehensive exploratory data analysis of the classic Iris flower dataset, featuring statistical analysis, visualizations, and hypothesis testing.
 
